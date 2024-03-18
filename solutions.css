@@ -1,0 +1,120 @@
+.ex-1-square {
+    transition: 3s;
+
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+.ex-2-square {
+    transition: 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+    background-color: yellow;
+    
+}
+
+.ex-3-square {
+    transition: 3s;
+    background-color: blue;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+    background-color: aqua;
+}
+
+.ex-4-square {
+    transition: 3s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+    background-color: yellow;
+}
+
+.ex-5-square {
+    transition: 2s;
+}
+
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.ex-5-square:active {
+    width: 20px;
+    height: 20px;
+    background-color: violet;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: 1s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: invert(1);
+    border-radius: 25%;
+}
+
+.ex-9-img {
+    transition: 2s;
+}
+.ex-9-img:active {
+    border-radius: 25%;
+    margin: 25px 75px;
+}
+
+@keyframes rotating {
+   
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.ex-10-icon {
+    animation: rotating 2s linear infinite;
+}
+
+.ex-11-icon:hover {
+    animation: rotating 2s linear infinite;
+}
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+       
+    }
+    
+}
+
+.ex-12-button:hover {
+    
+}
+
+@keyframes alternate-reverse {
+  
+}
